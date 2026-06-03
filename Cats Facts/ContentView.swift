@@ -42,7 +42,7 @@ struct ContentView: View {
             if let resultado = try? JSONDecoder().decode(CatFact.self, from: data) {
                 
                 DispatchQueue.main.async {
-                    fato = resultado.fact //comentario
+                    //fato = resultado.fact //comentario
                     // Oi Cheguei
                 }
                 
