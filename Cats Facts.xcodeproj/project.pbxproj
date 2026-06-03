@@ -35,16 +35,6 @@
 			path = "Cats Facts";
 			sourceTree = "<group>";
 		};
-		F05AF2DE2FD0503A00FF0BCF /* Cats FactsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Cats FactsTests";
-			sourceTree = "<group>";
-		};
-		F05AF2E82FD0503A00FF0BCF /* Cats FactsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Cats FactsUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				F05AF2D02FD0503800FF0BCF /* Cats Facts */,
-				F05AF2DE2FD0503A00FF0BCF /* Cats FactsTests */,
-				F05AF2E82FD0503A00FF0BCF /* Cats FactsUITests */,
 				F05AF2CF2FD0503800FF0BCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				F05AF2DD2FD0503A00FF0BCF /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				F05AF2DE2FD0503A00FF0BCF /* Cats FactsTests */,
-			);
 			name = "Cats FactsTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				F05AF2E72FD0503A00FF0BCF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F05AF2E82FD0503A00FF0BCF /* Cats FactsUITests */,
 			);
 			name = "Cats FactsUITests";
 			packageProductDependencies = (
