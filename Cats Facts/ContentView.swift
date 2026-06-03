@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct CatFact: Codable { //estrutura para ler o JSON
-    let fact: String
 }
 
 struct ContentView: View {
