@@ -43,6 +43,7 @@ struct ContentView: View {
                 
                 DispatchQueue.main.async {
                     //fato = resultado.fact //comentario
+                    fato = resultado.fact //comentario
                     // Oi Cheguei
                 }
             }
