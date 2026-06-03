@@ -45,7 +45,6 @@ struct ContentView: View {
                     //fato = resultado.fact //comentario
                     // Oi Cheguei
                 }
-                //toma
             }
             
         }.resume()
